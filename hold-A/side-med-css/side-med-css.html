@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Reference til Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <!-- "Internt style sheet" -->
+    <style>
+        /* selector - property - value */
+        h1, h2, h3, h4 {
+            color: orange;
+            /* Her bruger jeg en Google font */
+            font-family: 'Dancing Script', cursive;
+            }
+        h1 {
+            font-size: 50px;
+            margin-bottom: 50px;
+            border: 5px solid pink;
+            padding: 37px;
+            text-align: center;
+            background-color: lightgray;
+        }
+        body {
+            background-color: #e6f5ff;
+            background-image: url("kat-2.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            }
+        p {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 17px;
+            font-weight: bold;
+        }
+        a {
+            color: pink;
+            text-decoration: none;
+        }
+        a:link {
+            color: brown;
+        }
+        a:visited {
+            color: beige;
+        }
+        a:hover {
+            color: yellow;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+        }
+        a:active {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- Inline style -->
+    <h1 style="color: red;">Styling med CSS</h1>
+    <p style="color: green;">Det er sjovt at kode. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque amet dolores earum quae, nisi, <a href="#">qui quo voluptates</a> culpa aliquam accusantium officia quos ipsum molestias repellendus sint, iste dignissimos iusto cupiditate odit fugit dolore quisquam.</p>
+    <p>Dolores a veritatis eaque illo officia voluptatibus excepturi unde mollitia quos, aperiam consequuntur totam inventore odio.</p>
+    <h1>Min anden overskrift</h1>
+    <h2>Underoverskrift</h2>
+    <h2>Underoverskrift 2</h2>
+</body>
+</html>
