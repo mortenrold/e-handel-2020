@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- siden er på dansk -->
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Reference til Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <!-- "Internt style sheet" -->
+    <style>
+        /* selector - property - value */
+        h1 {
+            color: green;
+            background-color: #eee;
+            font-family: 'Architects Daughter', cursive;
+            border: 3px solid red;
+            padding: 50px;
+            margin-bottom: 80px;
+            letter-spacing: -2px;
+            }
+        h2 {color: #ff9999;}
+        body {
+            background-color: #fffae6;
+            background-image: url("hund-2.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: georgia, serif;
+            }
+        a {
+            color: brown;
+            text-decoration: none;
+        }
+        a:link {
+            color: red;
+        }
+        a:visited {
+            color: yellow;
+        }
+        a:hover {
+            color: green;
+            font-size: 30px;
+            background-color: beige;
+        }
+        a:active {
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+    <!-- "inline styling" -->
+    <h1 style="color: red;">Min overskrift</h1>
+    <p style="color: darkblue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem blanditiis at <a href="#">tempore animi accusamus</a> quo voluptates consequatur modi distinctio expedita adipisci aliquid, in iste laboriosam commodi, perferendis unde veritatis sunt.</p>
+    <h1>Min anden overskrift</h1>
+    <h2>Underoverskrift</h2>
+</body>
+</html>
