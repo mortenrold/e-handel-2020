@@ -1,0 +1,26 @@
+h1 {
+    color: red;
+}
+#overskrift-2 {
+    color: cornflowerblue;
+}
+.fireben {
+    color: green;
+}
+.ingenarme {
+    color: #993366;
+}
+.kasse-1 {
+    background-color: #ddd;
+}
+.kasse-2 {
+    background-color: lightyellow;
+    /* styrer rækkefølgen */
+    order: -1;
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    /* vandret fordeling */
+    justify-content: space-around;
+}
