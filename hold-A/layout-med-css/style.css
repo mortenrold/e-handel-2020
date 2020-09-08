@@ -1,0 +1,35 @@
+h1 {
+    color: red;
+}
+.fireben {
+    color: green;
+}
+.toben {
+    color: #862d86;
+}
+#kasse1 {
+    background-color: #ddd;
+}
+/* Når jeg skriver "display: flex;" bliver kassen til en flex-container, hvilket automatisk får dens "børn" til at opføre sig som flex-items */
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    /* vandret afstand */
+    justify-content: space-around;
+    flex-direction: row;
+    /* lodret afstand */
+    align-items: center;
+    height: 500px;
+}
+#kasse2 {
+    background: lightyellow;
+    width: 30%;
+    /* ændrer placeringen af dette element */
+    order: -1;
+}
+#trae {
+    width: 400px;
+}
+#snowflake {
+    color: cornflowerblue;
+}
