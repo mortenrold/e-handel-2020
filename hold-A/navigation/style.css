@@ -1,0 +1,26 @@
+/* Browser reset */
+* {
+   margin: 0; 
+   padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-family: helvetica, arial, sans-serif;
+    padding: 20px;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+}
+.logo {
+    color: lightcoral;
+}
+.nav a {
+    color: lightcoral;
+    text-decoration: none;
+}
+.nav a:hover {
+    color: coral;
+}
