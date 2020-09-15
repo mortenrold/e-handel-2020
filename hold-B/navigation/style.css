@@ -1,0 +1,27 @@
+/* Browser reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    font-family: helvetica, arial, sans-serif;
+}
+.nav {
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav a {
+    color: lightcoral;
+    text-decoration: none;
+}
+.nav a:hover {
+    color: coral;
+}
+.logo {
+    color: lightcoral;
+}
